@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>Heavyweight boxing</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="wrapper">
+		<div id="timer" class="full">0</div>
+		<div id="left-beer" class="half beer">Drink Beer ( <span id="left-beer-count">0</span> )</div>
+		<div id="right-beer" class="half beer">Drink Beer ( <span id="right-beer-count">0</span> )</div>
+		<div id="left-KO" class="half">Try KO</div>
+		<div id="right-KO" class="half">Try KO</div>
+		<div id="left-abandon" class="half abandon">Abandon</div>
+		<div id="right-abandon" class="half abandon">Abandon</div>
+	</div>
+	<div id="round-start" class="overlay"></div>
+	<div id="break-start" class="overlay"></div>
+	<div id="ko-try" class="overlay"><span id="ko-timer"></span><span id="ko-failed">Click if KO failed</span></div>
+	<div id="winner" class="overlay"></div>
+	<script src="jquery-2.0.3.min.js"></script>
+	<script src="bacon.js"></script>
+	<script src="boxing.js"></script>
+	<script src="ui.js"></script>
+</body>
+</html>
